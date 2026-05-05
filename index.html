@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jirin Balingit | Web developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Jirin</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Home) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="greeting">Hi! </span>
+
+                    <h1>Jirin Balingit</h1>
+                    <h2>And I'm a <span class="highlight"> 2nd Year College Student</span> I'm want to become a better developer.</h2>
+                    <div class="contact-info-small">
+                        <p>Email: <a href="mailto:jirinbalingit@gmail.com">jirinbalingit@gmail.com</a></p>
+                        <p>Phone: 09363390458</p>
+                    </div>
+                    <button class="btn-cv" id="downloadBtn">📄 Download CV</button>
+                </div>
+                <div class="hero-image">
+                    <div class="image-box">
+                        <img src="images.jpg/myself.jpg" alt="Jirin Balingit" class="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <p> I'm a dedicated 2nd year college student with a passion for web development. I enjoy creating modern, responsive websites and continuously strive to improve my skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites built with clean code.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Fast loading and optimized websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" class="form-input">
+                <input type="email" id="email" placeholder="Your Email" class="form-input">
+                <textarea id="message" rows="4" placeholder="Your Message" class="form-input"></textarea>
+                <button class="btn-submit" id="submitBtn">Send Message</button>
+                <p id="formMessage" class="form-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jirin Balingit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
